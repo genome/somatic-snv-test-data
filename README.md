@@ -14,3 +14,5 @@ Should you wish to recreate the files in this repository, they were processed as
     samtools index tumor.bam
     gunzip human_g1k_v37.fasta.gz
     samtools faidx human_g1k_v37.fasta 21:1-10505000 > ref.fa
+
+Note that ref.fa was then further edited to change the chromosome name back to 21 as faidx includes the requested region in the name.
